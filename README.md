@@ -4,13 +4,11 @@ This project is based on the boilerplate provided by [ngX-Rocket](https://github
 
 # Getting started
 
+**WARNING!!!** Latest Node and Python are a requirement for Angular 6 projects. Please do make sure you complete steps 1 and 2.
+
 1. Make sure you have [Node 8](https://nodejs.org/en/) installed.
 
 2. Make sure you have the latest [Python](https://www.python.org/downloads/) installed.
-
-<aside class="notice">
-Latest Node and Python are a requirement for Angular 6 projects. Please do make sure you complete steps 1 and 2 before proceeding
-</aside>
 
 3. Go to project folder and install dependencies:
  ```bash
@@ -21,6 +19,8 @@ Latest Node and Python are a requirement for Angular 6 projects. Please do make 
  ```bash
  npm start
  ```
+
+ 5. In login screen use any username and password (fields cannot be left blank).
 
 # Project structure
 
