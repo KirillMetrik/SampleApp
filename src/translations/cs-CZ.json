@@ -1,0 +1,20 @@
+{
+    "APP_NAME": "Sample App",
+    "About": "O applikaci",
+    "Add Note": "Pridat poznamku",
+    "Edit": "Upravit",
+    "Home": "Domu",
+    "Logged in as": "Prihlasen jako",
+    "Login": "Prihlasit",
+    "Logout": "Odhlasit",
+    "Note": "Poznamka",
+    "Password": "Heslo",
+    "Password is required": "Heslo je povinne",
+    "Remember me": "Pamatovat prihlaseni",
+    "Remove": "Odstranit",
+    "Save": "Ulozit",
+    "Username": "Jmeno uzivatela",
+    "Username is required": "Jmeno uzivatela je povinne",
+    "Username or password incorrect.": "Jmeno uzivatela nebo heslo neni spravne.",
+    "Version": "Verze"
+}

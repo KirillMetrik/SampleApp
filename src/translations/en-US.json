@@ -1,0 +1,20 @@
+{
+  "APP_NAME": "Sample App",
+  "About": "About",
+  "Add Note": "Add Note",
+  "Edit": "Edit",
+  "Home": "Home",
+  "Logged in as": "Logged in as",
+  "Login": "Login",
+  "Logout": "Logout",
+  "Note": "Note",
+  "Password": "Password",
+  "Password is required": "Password is required",
+  "Remember me": "Remember me",
+  "Remove": "Remove",
+  "Save": "Save",
+  "Username": "Username",
+  "Username is required": "Username is required",
+  "Username or password incorrect.": "Username or password incorrect.",
+  "Version": "Version"
+}

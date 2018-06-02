@@ -1,0 +1,37 @@
+<div class="card note-card"
+     *ngFor="let note of notes">
+  <div class="card-header">
+    <span translate>Note</span> {{note.id}}
+  </div>
+  <div class="card-body">
+    <p class="card-text">{{note.title}}</p>
+  </div>
+  <div class="card-body">
+    <a class="btn btn-primary"
+       href="javascript:void(0)"
+       (click)="edit(note)" translate>Edit</a>
+    <a class="btn btn-danger"
+       href="javascript:void(0)"
+       (click)="remove(note)" translate>Remove</a>
+  </div>
+
+  <div class="card-body"
+       [hidden]="!note.isEditing">
+    <input type="text"
+           [(ngModel)]="note.title" />
+    <a class="btn btn-success"
+       href="javascript:void(0)"
+       (click)="save(note)" translate>Save</a>
+  </div>
+</div>
+
+<a class="card-link"
+   href="javascript:void(0)"
+   (click)="add()" translate>Add Note</a>
+<div *ngIf="addingNote">
+  <input type="text"
+         [(ngModel)]="addingNote.title" />
+  <a class="btn btn-success"
+     href="javascript:void(0)"
+     (click)="save(addingNote)" translate>Save</a>
+</div>
